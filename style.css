@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=PT+Sans&display=swap');
+
+html{
+    font-family: 'PT Sans', sans-serif;
+    ;
+}
+header{
+    background-color: #0084fd;
+    color: white;
+    padding: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.menu ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-white{
+    background-color: white;
+    color: black;
+    padding:5px;
+    border-radius: 20px;
+}
+
+header nav svg{
+    fill: white;
+    display: none;
+    cursor: pointer;
+}
+
